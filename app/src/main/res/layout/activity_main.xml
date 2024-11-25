@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#F0F8FF"> <!-- Light blue background -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Welcome To Android App Development"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textColor="#000000" /><!-- Black text -->
+    />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#FF6347" /><!-- Tomato red background -->
+   <!-- White text -->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#4682B4" /><!-- Steel blue background -->
+    <!-- White text -->
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center Text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#32CD32"/> <!-- Lime green background -->
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 4"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#FFD700"/> <!-- Gold background -->
+    <!-- Black text -->
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 5"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#8A2BE2" /><!-- Blue-violet background -->
+  <!-- White text -->
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 6"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#FF4500"/> <!-- Orange-red background -->
+ <!-- White text -->
+
+</LinearLayout>
